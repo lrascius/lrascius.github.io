@@ -1,0 +1,41 @@
+/* NAVIGATION CSS*/
+
+.nav li a {
+    color: black;
+}
+
+.nav li.active {
+	border-bottom: 3px solid black;
+}
+
+.navbar-brand {
+/*	font: 700 18px/1.2 'Montserrat', serif, sans-serif;*/
+    font-family: 'Lobster', Georgia, Times, serif;
+	color: #000;
+}
+
+.navbar {
+/*	text-transform: uppercase;*/
+    
+}
+
+.nav li a:hover, 
+.nav li a:focus, 
+.nav li.active {
+	background: none;
+	color: #EF4836;
+}
+
+/* END OF NAVIGATION */
+
+/* RESUME CSS */
+#resume {
+    padding-top: 40px;    
+}
+
+/* END OF RESUME */
+
+img {
+    width: 80px; 
+    height: auto;
+}
