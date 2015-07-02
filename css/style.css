@@ -10,13 +10,12 @@
 
 .navbar-brand {
 /*	font: 700 18px/1.2 'Montserrat', serif, sans-serif;*/
-    font-family: 'Lobster', Georgia, Times, serif;
 	color: #000;
 }
 
 .navbar {
 /*	text-transform: uppercase;*/
-    
+    background-color: white;
 }
 
 .nav li a:hover, 
@@ -28,14 +27,36 @@
 
 /* END OF NAVIGATION */
 
+/* HOME CSS */
+#home {
+    padding: 40px 0px 800px 0px; 
+    background-color: lightgrey;
+}
+/* END OF HOME */
+
+
 /* RESUME CSS */
 #resume {
-    padding-top: 40px;    
+    padding: 40px 0px 800px 0px;    
+    background-color: lightcoral;
 }
-
 /* END OF RESUME */
+
+/* PROJECTS CSS */
+#projects {
+    padding: 40px 0px 800px 0px;
+    background-color: lightsteelblue;
+}
+/* END OF PROJECTS */
+
 
 img {
     width: 80px; 
     height: auto;
+}
+
+@media (max-width: 768px) {
+    .text-align-sm {
+        text-align: center;
+    }
 }
