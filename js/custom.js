@@ -10,5 +10,10 @@ $(document).ready(function () {
     $("li").click(function() {
          $("li.active").removeClass("active");
          $(this).addClass("active");  
-    });  
+    });
+    
+    $("#js-rotating").Morphext({
+        animation: "flipInY",
+        speed: 4000
+    });
 });

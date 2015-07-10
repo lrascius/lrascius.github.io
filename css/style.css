@@ -19,7 +19,8 @@ section {
 
 .navbar-brand {
 	font: 350 20px 'Helvetica', serif, sans-serif;
-/*    font: 322 32 'Helvetica';*/
+/*    font-family: 'Tangerine', serif;*/
+/*    font-size: 20px;*/
 	color: #000;
 }
 
@@ -36,36 +37,39 @@ section {
     color: red;
 }
 
+.icon-bar {
+      background-color: black;
+    
+}
+
 /* END OF NAVIGATION */
 
 /* HOME CSS */
 
 #home {
-/*    position: relative;*/
-    padding: 40px 0px 800px 0px; 
-    background-image: url(../static/images/nyc.jpg);
-    background-repeat: no-repeat;
-/*    background-position: center top;*/
-    background-size: 201vh auto;
+    padding: 40px 0px 676.439px 0px; 
     text-align: center;
 }
 
 #home h2 {
-/*    position: absolute;*/
-/*    top: 50%;*/
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
     color: aliceblue;
 }
 
-/*#home img {*/
-/*
-    width: 1920px;
-    height: 1080px;  
-*/
-/*
-    max-width: 100%;
-    max-height: 100%;
-*/
-/*}*/
+#home .row {
+    position: relative;
+    bottom: -200px;
+}
+
+#home img {
+    position: absolute;
+    z-index: -1;
+    width: 1440px; 
+    height: 745.439px;
+    left: 0px; 
+    top: 53px;
+}
 
 .hello {
 	margin: 0 0 100px;
@@ -77,7 +81,7 @@ section {
 /* RESUME CSS */
 #resume {
     padding: 40px 0px 800px 0px;    
-    background-color: lightgray;
+    background-color: white;
 }
 /* END OF RESUME */
 
