@@ -19,8 +19,6 @@ section {
 
 .navbar-brand {
 	font: 350 20px 'Helvetica', serif, sans-serif;
-/*    font-family: 'Tangerine', serif;*/
-/*    font-size: 20px;*/
 	color: #000;
 }
 
@@ -88,7 +86,7 @@ section {
 /* PROJECTS CSS */
 #projects {
     padding: 40px 0px 800px 0px;
-    background-color: lightsteelblue;
+    background-color: #E2DFC5;
 }
 
 .project {
