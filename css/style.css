@@ -89,8 +89,8 @@ section {
     background-color: #E2DFC5;
 }
 
-.project {
-    height: 300px;
+#projects .project {
+    height: 395px; 
 }
 
 .project img {
@@ -98,8 +98,21 @@ section {
     height: 265px;
 }
 
+.project-description {
+    background-color: antiquewhite;
+    width: 400px;
+    height: 365px;
+}
+
 /* END OF PROJECTS */
 
+/* CONTACT CSS */
+#contact {
+    padding: 40px 0px 800px 0px;    
+    background-color: white;   
+}
+
+/* END OF CONTACT */
 img {
     width: 80px; 
     height: auto;
