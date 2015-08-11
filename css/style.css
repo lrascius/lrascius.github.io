@@ -45,7 +45,10 @@ section {
 /* HOME CSS */
 
 #home {
-    padding: 40px 0px 676.439px 0px; 
+/*    height: 676.439px;*/
+    height: 800px;
+    padding-top: 40px;
+/*    padding: 40px 0px 676.439px 0px; */
     text-align: center;
 }
 
@@ -73,12 +76,30 @@ section {
 	margin: 0 0 100px;
 }
 
+#home i {
+    color: aliceblue;
+    font-size: 42px;
+}
+
+#home h4 {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+#home .contact-info {
+/*    position:fixed;*/
+/*    bottom:0px;*/
+/*    margin-top: 180px;*/
+}
+
 /* END OF HOME */
 
 
 /* RESUME CSS */
 #resume {
-    padding: 40px 0px 800px 0px;    
+/*    padding: 40px 0px 800px 0px; */
+    height: 800px;
+    padding: 40px;
     background-color: white;
 }
 /* END OF RESUME */
@@ -108,7 +129,7 @@ section {
 
 /* CONTACT CSS */
 #contact {
-    padding: 40px 0px 800px 0px;    
+/*    padding: 40px 0px 800px 0px;    */
     background-color: white;   
 }
 
