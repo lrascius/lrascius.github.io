@@ -87,6 +87,7 @@ section {
 }
 
 #home .contact-info {
+    margin-top: 300px; 
 /*    position:fixed;*/
 /*    bottom:0px;*/
 /*    margin-top: 180px;*/
@@ -99,14 +100,16 @@ section {
 #resume {
 /*    padding: 40px 0px 800px 0px; */
     height: 800px;
-    padding: 40px;
+/*    padding: 40px;*/
     background-color: white;
 }
 /* END OF RESUME */
 
 /* PROJECTS CSS */
 #projects {
-    padding: 40px 0px 800px 0px;
+    height: 900px;
+/*    padding-top: 10px;*/
+/*    padding: 40px 0px 800px 0px;*/
     background-color: #E2DFC5;
 }
 
@@ -130,7 +133,49 @@ section {
 /* CONTACT CSS */
 #contact {
 /*    padding: 40px 0px 800px 0px;    */
-    background-color: white;   
+    background-color: black;   
+}
+
+#contact h2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+#contact i {
+    float: left; 
+    font-size: 33px;
+    padding-right: 10px;
+    color: saddlebrown;
+}
+
+.form-group input {
+    width: 450px;
+}
+
+.form-group textarea {
+    width: 450px;   
+}
+
+#contact .form-group .fa-user {
+    font-size: 40px;   
+    padding-right: 12px;
+}
+
+.form-group button {
+    background-color: saddlebrown;
+    color: white;
+}
+
+.panel-body {
+    background-color: black;
+}
+
+.panel-heading {
+    background-color: black;
+}
+
+#contact h4 {
+    color: white;   
 }
 
 /* END OF CONTACT */
@@ -140,7 +185,7 @@ img {
 }
 
 @media (max-width: 768px) {
-    .text-align-sm {
+    .text-align-sm, #contact .row {
         text-align: center;
     }
 }
