@@ -15,6 +15,10 @@ h2 {
     font-weight: 800;
 }
 
+h4 {
+    font-family: 'Questrial', sans-serif;
+}
+
 /* NAVIGATION CSS*/
 
 .nav li a {
@@ -40,7 +44,7 @@ h2 {
 .nav li a:focus, 
 .nav li.active {
 	background: none;
-    color: red;
+    color: #AA37A5;
 }
 
 .icon-bar {
@@ -107,20 +111,24 @@ h2 {
 
 
 /* RESUME CSS */
+/*
 #resume {
-/*    padding: 40px 0px 800px 0px; */
     height: 800px;
-/*    padding: 40px;*/
     background-color: white;
 }
+*/
 /* END OF RESUME */
 
 /* PROJECTS CSS */
 #projects {
     height: 1050px;
-/*    padding-top: 10px;*/
+    padding-top: 40px;
 /*    padding: 40px 0px 800px 0px;*/
     background-color: #E2DFC5;
+}
+
+#projects h2{
+    color: black;
 }
 
 #projects .project {
@@ -254,7 +262,31 @@ img {
     .text-align-sm, #contact .row {
         text-align: center;
     }
+    
+    #projects {
+        height: 2000px;   
+    }
 }
+
+@media (max-width: 768px) {
+    .text-align-sm, #contact .row {
+        text-align: center;
+    }
+}
+
+@media (max-width: 992px) {
+    #projects {
+        height: 2000px;   
+    }
+    
+    #home .contact-info {
+        margin-top: 100px; 
+    }
+    #contact i {
+        float: none;   
+    }
+}
+
 
 .fa-th {
     font-size: 0.7em; 
