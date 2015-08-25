@@ -7,6 +7,14 @@ section {
 /*    height: 100%;*/
 }
 
+h2 {
+    font-family: 'Tangerine', serif;
+    font-size: 58px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: 800;
+}
+
 /* NAVIGATION CSS*/
 
 .nav li a {
@@ -52,11 +60,13 @@ section {
     text-align: center;
 }
 
+/*
 #home h2 {
     font-family: 'Tangerine', serif;
     font-size: 48px;
     color: aliceblue;
 }
+*/
 
 #home .row {
     position: relative;
@@ -107,14 +117,14 @@ section {
 
 /* PROJECTS CSS */
 #projects {
-    height: 900px;
+    height: 1050px;
 /*    padding-top: 10px;*/
 /*    padding: 40px 0px 800px 0px;*/
     background-color: #E2DFC5;
 }
 
 #projects .project {
-    height: 395px; 
+    height: 475px; 
 }
 
 .project img {
@@ -125,7 +135,28 @@ section {
 .project-description {
     background-color: antiquewhite;
     width: 400px;
-    height: 365px;
+/*    height: 365px;*/
+    height: 410px;
+}
+
+.proglang p {
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+.project h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+
+.project p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    display: block;
+    float: left;
 }
 
 /* END OF PROJECTS */
@@ -136,10 +167,12 @@ section {
     background-color: black;   
 }
 
+/*
 #contact h2 {
     color: aliceblue;
     text-align: center;
 }
+*/
 
 #contact i {
     float: left; 
