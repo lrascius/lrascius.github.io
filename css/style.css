@@ -159,6 +159,39 @@ h2 {
     float: left;
 }
 
+#django {
+    border-color: #008000;
+}
+
+#python {
+    border-color: #4682B4;
+}
+
+#html5 {
+    border-color: #E44D26;
+}
+
+#bootstrap {
+    border-color: #594080;
+}
+
+#qt {
+    border-color: #80C342;
+}
+
+#cplusplus {
+    border-color: #5B96CE;
+}
+
+#threejs {
+    border-color: blueviolet;
+}
+
+#matlab {
+    border-color: #DB5F23;
+}
+
+
 /* END OF PROJECTS */
 
 /* CONTACT CSS */
